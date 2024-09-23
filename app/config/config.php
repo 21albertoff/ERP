@@ -1,6 +1,6 @@
 <?php 
 
-$db_server = "YOUR_SERVER", 
-$db_name = "YOUR_NAMEDB",
-$db_user = "YOUR_USER", , 
-$db_password = "YOUR_PASSWORD", 
+$db_server = "192.168.1.235\ERP";
+$db_name = "ERPHispatec";
+$db_user = "sa";
+$db_password = "daryl"; 
