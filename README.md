@@ -1,4 +1,6 @@
-# ERPConnectionTracker
+# 🔑 ERPConnectionTracker
+
+![GitHub last commit](https://img.shields.io/github/last-commit/21albertoff/ERPConnectionTracker?style=for-the-badge)![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 Este es un proyecto de aplicación web estática que muestra qué usuario está conectado actualmente en el sistema ERP, el cual tiene solo una licencia activa. Informa a los demás usuarios sobre quién está usando el sistema. Si no hay nadie conectado, indica que el sistema está disponible para su uso. Además, la aplicación cuenta con un modo oscuro que se activa automáticamente por la tarde.
 
@@ -30,7 +32,10 @@ Para que la aplicación funcione correctamente, se deben cumplir los siguientes 
    ```
    
 3. Actualiza la configuración de la base de datos:
-Abre el archivo `config.php` y modifica las credenciales de la base de datos según sea necesario.
+
+> [!TIP]
+> Abre el archivo `config.php` y modifica las credenciales de la base de datos según sea necesario. Asegúrate de que estos valores correspondan con la configuración de tu sistema ERP.
+> 
    ```php
    <?php
       $db_server = 'TU_HOST_BD';
@@ -39,7 +44,7 @@ Abre el archivo `config.php` y modifica las credenciales de la base de datos seg
       $db_password = 'TU_CONTRASEÑA_BD';
    ?>
    ```
-Asegúrate de que estos valores correspondan con la configuración de tu sistema ERP.
+
 
 4. Asegúrate de que los drivers ODBC de SQL Server están instalados correctamente en tu sistema y son compatibles con tu versión de PHP.
 
