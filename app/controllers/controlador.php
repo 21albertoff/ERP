@@ -48,7 +48,7 @@ function generarTextoTiempo($horas, $minutos) {
 // Función para obtener la extensión según el usuario.
 function obtenerExtension($usuarioWindows) {
     switch ($usuarioWindows) {
-        case "Usuario2":
+        case "EDUARDO JODAR":
             return "555";
         case "Usuario":
             return "343";

@@ -1,2 +1,3 @@
 app/config/config.php
 resources/img/logo.png
+app/controllers/controlador.php
