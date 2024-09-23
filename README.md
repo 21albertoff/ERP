@@ -61,7 +61,7 @@ Para que la aplicación funcione correctamente, se deben cumplir los siguientes 
 
 ## Licencia
 
-Este proyecto es de código abierto bajo la licencia MIT. Consulta el archivo ![LICENSE](https://github.com/21albertoff/ERPConnectionTracker/blob/main/LICENSE) para más detalles. 
+Este proyecto es de código abierto bajo la licencia MIT. Consulta el archivo [LICENSE](https://github.com/21albertoff/ERPConnectionTracker/blob/main/LICENSE) para más detalles. 
 ¡Siéntete libre de contribuir a este proyecto o reportar cualquier problema que encuentres!
 
 
