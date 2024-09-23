@@ -2,7 +2,7 @@
 function aplicarModoOscuro() {
     const horaActual = new Date().getHours();
 
-    if (horaActual >= 18 || horaActual < 9) {
+    if (horaActual >= 16 || horaActual < 9) {
         document.body.classList.add('dark-mode');
     } else {
         document.body.classList.remove('dark-mode');
