@@ -1,0 +1,145 @@
+/* Estilos básicos y responsivos */
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+/* Cabecera */
+header {
+    padding-top: 1%;
+    width: 100%;
+    height: 300px; /* Fijamos la altura de la imagen */
+}
+
+header img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Contenido principal centrado */
+main {
+    text-align: center;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main p.small-text {
+    font-size: 50px;
+    font-weight: 300;
+    color: #666;
+}
+
+main p.active-small-text {
+    font-size: 30px;
+    font-weight: 300;
+    color: #666;
+}
+
+main p.enter-text {
+    font-size: 70px;
+    margin-top: .25rem;
+    color: #347175;
+}
+
+main h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+main p.medium-text {
+    font-size: 24px;
+    color: #444;
+}
+
+main p.active-medium-text {
+    margin-top: .25rem;
+    font-size: 45px;
+    color: #444;
+}
+
+main p.time-text {
+    margin-top: .25rem;
+    font-size: 40px;
+    color: #444;
+}
+
+
+main span.usuario {
+    font-size: 60px;
+    font-weight: 700;
+    color: #e54545;
+}
+
+main span.minutos {
+    color: #347175;
+}
+
+/* Footer */
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para diferentes resoluciones */
+@media (max-width: 768px) {
+    main h1 {
+        font-size: 36px;
+    }
+
+    main p.medium-text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    main h1 {
+        font-size: 28px;
+    }
+
+    main p.medium-text {
+        font-size: 16px;
+    }
+}
+
+/* Modo oscuro */
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+body.dark-mode main p.small-text {
+    color: #aaa;
+}
+
+body.dark-mode main h1 {
+    color: #fff;
+}
+
+body.dark-mode main p.medium-text {
+    color: #ccc;
+}
+
+body.dark-mode footer {
+    background-color: #1b1b1b;
+}
+
+body.dark-mode main h1 {
+    color: #ccc;
+}
+
+body.dark-mode main p.medium-text {
+    color: #ccc;
+}
+
+body.dark-mode main p.active-medium-text {
+    color: #ccc;
+}
+
+body.dark-mode main p.time-text {
+    color: #ccc;
+}
