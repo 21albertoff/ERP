@@ -1,6 +1,4 @@
-<?php 
-include_once __DIR__ . '/App/Controllers/controlador.php';
-?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -18,6 +16,10 @@ include_once __DIR__ . '/App/Controllers/controlador.php';
 
 </head>
 <body>
+
+<?php 
+include_once __DIR__ . '/App/Controllers/controlador.php';
+?>
 
     <!-- Cabecera con imagen -->
     <header>
